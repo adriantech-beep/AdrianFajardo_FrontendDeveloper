@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+.starfield::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: transparent;
+  background-image: radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+  background-size: 1px 1px, 2px 2px, 3px 3px;
+  background-position: 20% 30%, 50% 50%, 70% 80%;
+  /* animation: twinkle 5s infinite ease-in-out alternate; */
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+/* @keyframes twinkle {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.1;
+  }
+} */
+
+/* @keyframes pulse-glow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2.5s infinite ease-in-out;
+} */
