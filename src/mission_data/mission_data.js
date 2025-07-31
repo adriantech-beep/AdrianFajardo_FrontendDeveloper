@@ -40,7 +40,13 @@ const missionData = [
     image: retro_pizza_admin,
     description:
       "The Retro Pizza Admin Panel is a role-based management dashboard for handling orders, products, and user access within the Retro Pizza system.",
-    technologies: ["React", "Tailwind", "Node/Express", "MongoDB"],
+    technologies: [
+      "React",
+      "Tailwind",
+      "Node/Express",
+      "MongoDB",
+      "Cloudinary",
+    ],
     demo: "https://retro-pizza-admin.vercel.app/#/login",
     github: "https://github.com/adriantech-beep/retro-pizza-admin.git",
   },
