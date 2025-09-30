@@ -2,12 +2,12 @@
 // import tartland_inventory from "../assets/project-images/tartland.png";
 // import retro_pizza_main from "../assets/project-images/retro-pizza-main.png";
 // import retro_pizza_admin from "../assets/project-images/retro-pizza-admin.png";
-// import TechFixAdmin from "../assets/project-images/techfix-admin.png";
+import TechFixAdmin from "../assets/project-images/techfix-admin.png";
 import TechFix from "../assets/project-images/techfix.png";
 
 const missionData = [
   {
-    id: "TechFix-AI-Admin",
+    id: "TechFix-AI",
     title: "TechFix AI",
     image: TechFix,
     description:
@@ -15,24 +15,32 @@ const missionData = [
     technologies: [
       "React.js",
       "Tailwind CSS",
+      "ShadCn Ui",
       "Node.js",
       "Express",
       "Gemini / OpenAI API",
-      "JWT + Google OAuth",
     ],
     demo: "https://techfix-ai-frontend.vercel.app",
     github: "https://github.com/adriantech-beep/techfix-ai-frontend.git",
   },
-  // {
-  //   id: "tartland_inventory",
-  //   title: "Tartland Inventory System",
-  //   image: tartland_inventory,
-  //   description:
-  //     "A custom-built web application designed to help small-scale food manufacturers track raw material usage, monitor daily production output, and manage inventory levels in real time.",
-  //   technologies: ["React", "Tailwind", "Node/Express", "MongoDB"],
-  //   demo: "https://tartland-inventory-system.vercel.app/",
-  //   github: "https://github.com/adriantech-beep/tartland-inventory-system.git",
-  // },
+  {
+    id: "TechFix-AI-Admin",
+    title: "TechFix AI Admin",
+    image: TechFixAdmin,
+    description:
+      "TechFix Admin is the management dashboard for TechFix AI. It allows administrators and staff to manage repair guides, tools, parts, and user access through a secure, role-based system. The platform ensures that repair content is accurate, organized, and scalable as TechFix AI grows.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "ShadCn Ui",
+      "Cloudinary",
+      "Node.js",
+      "Express",
+      "JWT + Google OAuth",
+    ],
+    demo: "https://techfix-admin-v2.vercel.app",
+    github: "https://github.com/adriantech-beep/techfix-admin-v2.git",
+  },
   // {
   //   id: "retro_pizza_main",
   //   title: "Retro Pizza",
