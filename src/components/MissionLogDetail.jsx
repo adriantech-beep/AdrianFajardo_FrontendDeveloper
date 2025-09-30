@@ -8,11 +8,15 @@ const MissionLogDetail = ({ project }) => {
     <section className="min-h-screen bg-[#0f172a] text-white py-16 px-6">
       <div className="max-w-5xl mx-auto space-y-8">
         <div className="flex items-center justify-center">
-          <img
-            src={project.image}
-            alt={project.title}
-            className="max-w-2xl h-95 rounded-xl shadow-md p-4"
-          />
+          {project.image ? (
+            <img
+              src={project.image}
+              alt={project.title}
+              className="max-w-2xl h-95 rounded-xl shadow-md p-4"
+            />
+          ) : (
+            <p className="text-gray-50 font-bold">No image to show</p>
+          )}
         </div>
 
         <h2 className="text-3xl font-bold font-[Orbitron] text-cyan-400">
