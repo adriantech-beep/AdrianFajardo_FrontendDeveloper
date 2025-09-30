@@ -7,24 +7,22 @@ const MissionLogDetail = ({ project }) => {
   return (
     <section className="min-h-screen bg-[#0f172a] text-white py-16 px-6">
       <div className="max-w-5xl mx-auto space-y-8">
-        {/* 🖼️ Project Image */}
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full h-80 object-cover rounded-xl shadow-md"
-        />
+        <div className="flex items-center justify-center">
+          <img
+            src={project.image}
+            alt={project.title}
+            className="max-w-2xl h-95 rounded-xl shadow-md p-4"
+          />
+        </div>
 
-        {/* 🚀 Project Title */}
         <h2 className="text-3xl font-bold font-[Orbitron] text-cyan-400">
           {project.title}
         </h2>
 
-        {/* 📄 Project Description */}
         <p className="text-white/80 font-[rajdhani] leading-relaxed">
           {project.description}
         </p>
 
-        {/* 🛠️ Technologies */}
         <div className="flex flex-wrap gap-2 mt-4">
           {project.technologies.map((tech, index) => (
             <span
