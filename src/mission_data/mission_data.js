@@ -1,7 +1,3 @@
-// import repair_management from "../assets/project-images/repair-management-system.png";
-// import tartland_inventory from "../assets/project-images/tartland.png";
-// import retro_pizza_main from "../assets/project-images/retro-pizza-main.png";
-// import retro_pizza_admin from "../assets/project-images/retro-pizza-admin.png";
 import TechFixAdmin from "../assets/project-images/techfix-admin.png";
 import TechFix from "../assets/project-images/techfix.png";
 
@@ -41,32 +37,23 @@ const missionData = [
     demo: "https://techfix-admin-v2.vercel.app",
     github: "https://github.com/adriantech-beep/techfix-admin-v2.git",
   },
-  // {
-  //   id: "retro_pizza_main",
-  //   title: "Retro Pizza",
-  //   image: retro_pizza_main,
-  //   description:
-  //     "A nostalgic-themed online pizza ordering platform designed for a smooth and fun customer experience. Built with React and TailwindCSS, it allows users to browse pizza options, customize orders, and place them in just a few clicks. The frontend features a cart system, responsive design, and seamless API integration with the backend for real-time order tracking. Inspired by classic 80s arcade vibes, the interface delivers both style and functionality.",
-  //   technologies: ["React", "Zustand", "Tailwind", "Node/Express", "MongoDB"],
-  //   demo: "https://retro-pizza-main.vercel.app/",
-  //   github: "https://github.com/adriantech-beep/retro-pizza-main.git",
-  // },
-  // {
-  //   id: "retro_pizza_admin",
-  //   title: "Retro Pizza Admin",
-  //   image: retro_pizza_admin,
-  //   description:
-  //     "The Retro Pizza Admin Panel is a role-based management dashboard for handling orders, products, and user access within the Retro Pizza system.",
-  //   technologies: [
-  //     "React",
-  //     "Tailwind",
-  //     "Node/Express",
-  //     "MongoDB",
-  //     "Cloudinary",
-  //   ],
-  //   demo: "https://retro-pizza-admin.vercel.app/#/login",
-  //   github: "https://github.com/adriantech-beep/retro-pizza-admin.git",
-  // },
+  {
+    id: "TechFix-AI-Backend",
+    title: "TechFix AI Backend",
+    image: "",
+    description:
+      "TechFix Backend is the core API service powering both TechFix AI and TechFix Admin. Built with Node.js and Express, it provides secure authentication, role-based access control, guide management, and media upload services. The backend ensures reliable data flow between the frontend apps, the database, and external services.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB (Mongoose ORM)",
+      "JWT + bcrypt.js",
+      "Cloudinary for image uploads",
+      "Render (backend hosting)",
+    ],
+    demo: "https://techfix-ai-backend.onrender.com",
+    github: "https://github.com/adriantech-beep/techfix-ai-backend.git",
+  },
 ];
 
 export default missionData;
