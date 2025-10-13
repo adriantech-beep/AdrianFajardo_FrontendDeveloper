@@ -1,5 +1,6 @@
 import TechFixAdmin from "../assets/project-images/techfix-admin.png";
 import TechFix from "../assets/project-images/techfix.png";
+import TartLand from "../assets/project-images/tartland.png";
 
 const missionData = [
   {
@@ -40,7 +41,7 @@ const missionData = [
   {
     id: "TechFix-AI-Backend",
     title: "TechFix AI Backend",
-    image: "",
+    image: TartLand,
     description:
       "TechFix Backend is the core API service powering both TechFix AI and TechFix Admin. Built with Node.js and Express, it provides secure authentication, role-based access control, guide management, and media upload services. The backend ensures reliable data flow between the frontend apps, the database, and external services.",
     technologies: [
@@ -53,6 +54,41 @@ const missionData = [
     ],
     demo: "https://techfix-ai-backend.onrender.com",
     github: "https://github.com/adriantech-beep/techfix-ai-backend.git",
+  },
+  {
+    id: "TartLand-Inventory",
+    title: "TartLand-Inventory",
+    image: TartLand,
+    description:
+      "A full-stack production tracking system designed to manage product output based on mixtures, deduct raw materials from inventory — all with precision and accuracy.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT + bcrypt.js",
+      "Cloudinary for avatar uploads",
+      "Render (backend hosting)",
+    ],
+    demo: "https://tartland-inventory-system.vercel.app",
+    github: "https://github.com/adriantech-beep/tartland-inventory-system.git",
+  },
+  {
+    id: "TartLand-Backend",
+    title: "TartLand-Backend",
+    image: "",
+    description:
+      "A full-stack production tracking system designed to manage product output based on mixtures, deduct raw materials from inventory — all with precision and accuracy.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT + bcrypt.js",
+      "Cloudinary for avatar uploads",
+      "Render (backend hosting)",
+    ],
+    demo: "https://tartland-inventory-backend.onrender.com",
+    github: "https://github.com/adriantech-beep/tartland-inventory-backend.git",
   },
 ];
 
