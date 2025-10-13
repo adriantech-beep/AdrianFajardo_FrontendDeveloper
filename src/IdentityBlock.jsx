@@ -23,7 +23,11 @@ const IdentityBlock = () => {
           transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
         >
           <Typewriter
-            words={["Front-End Developer", "UI Explorer", "React Specialist"]}
+            words={[
+              "Front-End Developer",
+              "Full Stack MERN Developer",
+              "React Specialist",
+            ]}
             loop
             cursor
             cursorStyle="_"
