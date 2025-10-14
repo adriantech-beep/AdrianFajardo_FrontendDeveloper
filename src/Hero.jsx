@@ -20,7 +20,7 @@ const Hero = () => {
         <IdentityBlock />
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center z-10">
           <a
-            href="https://drive.google.com/file/d/1WTfJfBxNZRT1k0VEDGbZV3qIP6HBmlBm/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1npwk_hKuvppp0RtUr_32ZKX8_KGWs-Kz/view?usp=drive_link"
             download
             className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-md transition shadow-lg"
             aria-label="Download Adrian Fajardo's Resume"
